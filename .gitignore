@@ -1,0 +1,30 @@
+# Power BI autosave and temp files
+*.tmp
+*.bak
+*.pbix.autosave
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code workspace files
+.vscode/
+
+# Logs
+*.log
+
+# Python/R scripts cache (if used in Power BI)
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+
+# Node modules (if using custom visuals)
+node_modules/
+
+# Ignore large exports or backups
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
